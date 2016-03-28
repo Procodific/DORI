@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14D136" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Doctor" representedClassName="Doctor" syncable="YES">
+        <attribute name="contra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="edad" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sexo" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="usuario" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="pacientes" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Paciente" inverseName="doctor" inverseEntity="Paciente" syncable="YES"/>
+    </entity>
+    <entity name="Minitest" representedClassName="Minitest" syncable="YES">
+        <attribute name="fecha" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="puntaje" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="paciente" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Paciente" inverseName="minitests" inverseEntity="Paciente" syncable="YES"/>
+    </entity>
+    <entity name="Paciente" representedClassName="Paciente" syncable="YES">
+        <attribute name="cirugias" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="direccion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="edad" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="enfermedades" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="medicacion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="padecimiento" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="referencia" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sanguineo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sexo" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <relationship name="doctor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Doctor" inverseName="pacientes" inverseEntity="Doctor" syncable="YES"/>
+        <relationship name="minitests" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Minitest" inverseName="paciente" inverseEntity="Minitest" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Doctor" positionX="-63" positionY="-18" width="108" height="133"/>
+        <element name="Paciente" positionX="133" positionY="0" width="128" height="223"/>
+        <element name="Minitest" positionX="151" positionY="279" width="128" height="88"/>
+    </elements>
+</model>

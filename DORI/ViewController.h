@@ -7,9 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Doctor.h"
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *usuarioTextField;
+@property (weak, nonatomic) IBOutlet UITextField *contraTextField;
+@property (weak, nonatomic) NSDictionary *login;
+
+// Doctor loggeado
+@property (strong, nonatomic) Doctor *doctorLoggeado;
+
+- (IBAction)ingresar:(id)sender;
 
 @end
 

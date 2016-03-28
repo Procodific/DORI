@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C2D8C1B1B1601C2003A2797 /* HistorialClinicoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D8C1A1B1601C2003A2797 /* HistorialClinicoViewController.m */; };
 		8C40DC2A1B10ADB300EBFC6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C40DC291B10ADB300EBFC6D /* main.m */; };
 		8C40DC2D1B10ADB300EBFC6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C40DC2C1B10ADB300EBFC6D /* AppDelegate.m */; };
 		8C40DC301B10ADB300EBFC6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C40DC2F1B10ADB300EBFC6D /* ViewController.m */; };
 		8C40DC331B10ADB400EBFC6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C40DC311B10ADB400EBFC6D /* Main.storyboard */; };
-		8C40DC351B10ADB400EBFC6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C40DC341B10ADB400EBFC6D /* Images.xcassets */; };
 		8C40DC381B10ADB400EBFC6D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C40DC361B10ADB400EBFC6D /* LaunchScreen.xib */; };
 		8C40DC441B10ADB400EBFC6D /* DORITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C40DC431B10ADB400EBFC6D /* DORITests.m */; };
+		8C40DC521B10C3AF00EBFC6D /* RegistroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C40DC511B10C3AF00EBFC6D /* RegistroViewController.m */; };
+		8C40DC8D1B10CCEC00EBFC6D /* DORI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C40DC8B1B10CCEC00EBFC6D /* DORI.xcdatamodeld */; };
+		8C7F910A1B163B010043ABD8 /* MinimentalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F91091B163B010043ABD8 /* MinimentalViewController.m */; };
+		8C7F910F1B163F1A0043ABD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C7F910E1B163F1A0043ABD8 /* Images.xcassets */; };
+		8C7F91151B1654B50043ABD8 /* ResultadosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F91141B1654B50043ABD8 /* ResultadosTableViewController.m */; };
+		8CB226891B165D0300B5A986 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB226861B165D0300B5A986 /* Doctor.m */; };
+		8CB2268A1B165D0300B5A986 /* Minitest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB226871B165D0300B5A986 /* Minitest.m */; };
+		8CB2268B1B165D0300B5A986 /* Paciente.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB226881B165D0300B5A986 /* Paciente.m */; };
+		8CF037FC1B12589500BF0336 /* PacientesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF037FB1B12589500BF0336 /* PacientesTableViewController.m */; };
+		8CF038061B13526A00BF0336 /* NuevoPacienteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF038051B13526A00BF0336 /* NuevoPacienteViewController.m */; };
+		8CF038091B13551500BF0336 /* PacienteMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF038081B13551500BF0336 /* PacienteMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C2D8C191B1601C2003A2797 /* HistorialClinicoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistorialClinicoViewController.h; sourceTree = "<group>"; };
+		8C2D8C1A1B1601C2003A2797 /* HistorialClinicoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistorialClinicoViewController.m; sourceTree = "<group>"; };
 		8C40DC241B10ADB300EBFC6D /* DORI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DORI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C40DC281B10ADB300EBFC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C40DC291B10ADB300EBFC6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,11 +48,30 @@
 		8C40DC2E1B10ADB300EBFC6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8C40DC2F1B10ADB300EBFC6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8C40DC321B10ADB400EBFC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8C40DC341B10ADB400EBFC6D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8C40DC371B10ADB400EBFC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8C40DC3D1B10ADB400EBFC6D /* DORITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DORITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C40DC421B10ADB400EBFC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C40DC431B10ADB400EBFC6D /* DORITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DORITests.m; sourceTree = "<group>"; };
+		8C40DC501B10C3AF00EBFC6D /* RegistroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistroViewController.h; sourceTree = "<group>"; };
+		8C40DC511B10C3AF00EBFC6D /* RegistroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistroViewController.m; sourceTree = "<group>"; };
+		8C40DC8C1B10CCEC00EBFC6D /* DORI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DORI.xcdatamodel; sourceTree = "<group>"; };
+		8C7F91081B163B010043ABD8 /* MinimentalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinimentalViewController.h; sourceTree = "<group>"; };
+		8C7F91091B163B010043ABD8 /* MinimentalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinimentalViewController.m; sourceTree = "<group>"; };
+		8C7F910E1B163F1A0043ABD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8C7F91131B1654B50043ABD8 /* ResultadosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultadosTableViewController.h; sourceTree = "<group>"; };
+		8C7F91141B1654B50043ABD8 /* ResultadosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultadosTableViewController.m; sourceTree = "<group>"; };
+		8CB226861B165D0300B5A986 /* Doctor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Doctor.m; path = DORI/Doctor.m; sourceTree = "<group>"; };
+		8CB226871B165D0300B5A986 /* Minitest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Minitest.m; path = DORI/Minitest.m; sourceTree = "<group>"; };
+		8CB226881B165D0300B5A986 /* Paciente.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Paciente.m; path = DORI/Paciente.m; sourceTree = "<group>"; };
+		8CB2268C1B16650F00B5A986 /* Doctor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Doctor.h; path = DORI/Doctor.h; sourceTree = "<group>"; };
+		8CB2268D1B16650F00B5A986 /* Minitest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Minitest.h; path = DORI/Minitest.h; sourceTree = "<group>"; };
+		8CB2268E1B16650F00B5A986 /* Paciente.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Paciente.h; path = DORI/Paciente.h; sourceTree = "<group>"; };
+		8CF037FA1B12589500BF0336 /* PacientesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacientesTableViewController.h; sourceTree = "<group>"; };
+		8CF037FB1B12589500BF0336 /* PacientesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PacientesTableViewController.m; sourceTree = "<group>"; };
+		8CF038041B13526A00BF0336 /* NuevoPacienteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuevoPacienteViewController.h; sourceTree = "<group>"; };
+		8CF038051B13526A00BF0336 /* NuevoPacienteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuevoPacienteViewController.m; sourceTree = "<group>"; };
+		8CF038071B13551500BF0336 /* PacienteMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacienteMenuViewController.h; sourceTree = "<group>"; };
+		8CF038081B13551500BF0336 /* PacienteMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PacienteMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +95,12 @@
 		8C40DC1B1B10ADB300EBFC6D = {
 			isa = PBXGroup;
 			children = (
+				8CB226861B165D0300B5A986 /* Doctor.m */,
+				8CB2268C1B16650F00B5A986 /* Doctor.h */,
+				8CB2268D1B16650F00B5A986 /* Minitest.h */,
+				8CB226871B165D0300B5A986 /* Minitest.m */,
+				8CB2268E1B16650F00B5A986 /* Paciente.h */,
+				8CB226881B165D0300B5A986 /* Paciente.m */,
 				8C40DC261B10ADB300EBFC6D /* DORI */,
 				8C40DC401B10ADB400EBFC6D /* DORITests */,
 				8C40DC251B10ADB300EBFC6D /* Products */,
@@ -85,8 +123,14 @@
 				8C40DC2C1B10ADB300EBFC6D /* AppDelegate.m */,
 				8C40DC2E1B10ADB300EBFC6D /* ViewController.h */,
 				8C40DC2F1B10ADB300EBFC6D /* ViewController.m */,
+				8CF038071B13551500BF0336 /* PacienteMenuViewController.h */,
+				8CF038081B13551500BF0336 /* PacienteMenuViewController.m */,
+				8C7F910C1B163B3D0043ABD8 /* Altas */,
+				8C7F910D1B163B450043ABD8 /* Consultas */,
+				8C7F910B1B163B100043ABD8 /* Paciente */,
+				8C40DC8B1B10CCEC00EBFC6D /* DORI.xcdatamodeld */,
+				8C7F910E1B163F1A0043ABD8 /* Images.xcassets */,
 				8C40DC311B10ADB400EBFC6D /* Main.storyboard */,
-				8C40DC341B10ADB400EBFC6D /* Images.xcassets */,
 				8C40DC361B10ADB400EBFC6D /* LaunchScreen.xib */,
 				8C40DC271B10ADB300EBFC6D /* Supporting Files */,
 			);
@@ -117,6 +161,39 @@
 				8C40DC421B10ADB400EBFC6D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C7F910B1B163B100043ABD8 /* Paciente */ = {
+			isa = PBXGroup;
+			children = (
+				8C2D8C191B1601C2003A2797 /* HistorialClinicoViewController.h */,
+				8C2D8C1A1B1601C2003A2797 /* HistorialClinicoViewController.m */,
+				8C7F91081B163B010043ABD8 /* MinimentalViewController.h */,
+				8C7F91091B163B010043ABD8 /* MinimentalViewController.m */,
+				8C7F91131B1654B50043ABD8 /* ResultadosTableViewController.h */,
+				8C7F91141B1654B50043ABD8 /* ResultadosTableViewController.m */,
+			);
+			name = Paciente;
+			sourceTree = "<group>";
+		};
+		8C7F910C1B163B3D0043ABD8 /* Altas */ = {
+			isa = PBXGroup;
+			children = (
+				8C40DC501B10C3AF00EBFC6D /* RegistroViewController.h */,
+				8C40DC511B10C3AF00EBFC6D /* RegistroViewController.m */,
+				8CF038041B13526A00BF0336 /* NuevoPacienteViewController.h */,
+				8CF038051B13526A00BF0336 /* NuevoPacienteViewController.m */,
+			);
+			name = Altas;
+			sourceTree = "<group>";
+		};
+		8C7F910D1B163B450043ABD8 /* Consultas */ = {
+			isa = PBXGroup;
+			children = (
+				8CF037FA1B12589500BF0336 /* PacientesTableViewController.h */,
+				8CF037FB1B12589500BF0336 /* PacientesTableViewController.m */,
+			);
+			name = Consultas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +276,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C7F910F1B163F1A0043ABD8 /* Images.xcassets in Resources */,
 				8C40DC331B10ADB400EBFC6D /* Main.storyboard in Resources */,
 				8C40DC381B10ADB400EBFC6D /* LaunchScreen.xib in Resources */,
-				8C40DC351B10ADB400EBFC6D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +296,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CB226891B165D0300B5A986 /* Doctor.m in Sources */,
+				8CB2268A1B165D0300B5A986 /* Minitest.m in Sources */,
+				8CB2268B1B165D0300B5A986 /* Paciente.m in Sources */,
 				8C40DC301B10ADB300EBFC6D /* ViewController.m in Sources */,
+				8C40DC521B10C3AF00EBFC6D /* RegistroViewController.m in Sources */,
 				8C40DC2D1B10ADB300EBFC6D /* AppDelegate.m in Sources */,
+				8C40DC8D1B10CCEC00EBFC6D /* DORI.xcdatamodeld in Sources */,
+				8CF037FC1B12589500BF0336 /* PacientesTableViewController.m in Sources */,
+				8C2D8C1B1B1601C2003A2797 /* HistorialClinicoViewController.m in Sources */,
+				8C7F91151B1654B50043ABD8 /* ResultadosTableViewController.m in Sources */,
+				8CF038091B13551500BF0336 /* PacienteMenuViewController.m in Sources */,
+				8CF038061B13526A00BF0336 /* NuevoPacienteViewController.m in Sources */,
+				8C7F910A1B163B010043ABD8 /* MinimentalViewController.m in Sources */,
 				8C40DC2A1B10ADB300EBFC6D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +506,7 @@
 				8C40DC491B10ADB400EBFC6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C40DC4A1B10ADB400EBFC6D /* Build configuration list for PBXNativeTarget "DORITests" */ = {
 			isa = XCConfigurationList;
@@ -426,8 +515,22 @@
 				8C40DC4C1B10ADB400EBFC6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C40DC8B1B10CCEC00EBFC6D /* DORI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C40DC8C1B10CCEC00EBFC6D /* DORI.xcdatamodel */,
+			);
+			currentVersion = 8C40DC8C1B10CCEC00EBFC6D /* DORI.xcdatamodel */;
+			path = DORI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8C40DC1C1B10ADB300EBFC6D /* Project object */;
 }
